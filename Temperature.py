@@ -14,7 +14,7 @@ def convert():
         
 
 root = tk.Tk()
-con_var = tk.IntVar()
+con_var = tk.IntVar(value=1)
 
 title = ttk.Label(root, text="Temperature\nConverter")
 title.grid(row=0, column=0, columnspan= 2)
@@ -32,7 +32,6 @@ convert.grid(row= 3, column= 0, columnspan=2, padx=10, pady=10)
 
 result1 = ttk.Label(root, text = "")
 result1.grid(row=4, column=0, columnspan=2, padx=10, pady=10)
-
 
 
 root.mainloop()
