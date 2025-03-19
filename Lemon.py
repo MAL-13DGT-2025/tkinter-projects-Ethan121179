@@ -4,11 +4,9 @@ from tkinter import ttk
 def calculate_total():
     try:
         lemonade_quantity = int(lemonade_quantity_entry.get())
-        
         lemonade_price = 2.00
         sugar_price = 0.50
         ice_price = 0.30
-        
         sugar_choice = sugar_var.get()
         ice_choice = ice_var.get()
         total_cost = lemonade_quantity * lemonade_price
@@ -23,8 +21,18 @@ def calculate_total():
 root = tk.Tk()
 root.title("Lemonade Stand")
 
+root.grid_rowconfigure(0, weight=1)
+root.grid_rowconfigure(1, weight=3)
+root.grid_columnconfigure(0, weight=1)
+
+header_frame = ttk.Frame(root, padding="10")
+header_frame.grid(row=0, column=0, sticky="nsew")
+
+header_label = ttk.Label(header_frame, text="Tu dalar lemons", font=("Helvetica", 16, "bold"))
+header_label.grid(row=0, column=0, padx=5, pady=10)
+
 frame = ttk.Frame(root, padding="10")
-frame.grid(row=0, column=0, sticky="nsew")
+frame.grid(row=1, column=0, sticky="nsew")
 
 quantity_label = ttk.Label(frame, text="How many lemonades would you like to order?")
 quantity_label.grid(row=0, column=0, sticky="w", padx=5, pady=5)

@@ -8,16 +8,16 @@
                     <mxGeometry x="30" y="-10" width="550" height="310" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;How many lemonades would you like to order?&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="170" y="45" width="100" height="70" as="geometry"/>
+                    <mxGeometry x="170" y="80" width="100" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Total Cost:&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
                     <mxGeometry x="230" y="230" width="110" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="$0.99 - Ice" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fillColor=#eeeeee;strokeColor=#999999;gradientColor=#cccccc;align=left;spacingLeft=4;fontSize=17;fontColor=#666666;labelPosition=right;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="120" width="15" height="15" as="geometry"/>
+                    <mxGeometry x="50" y="150" width="15" height="15" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="$1 per tsp - Sugar" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fillColor=#eeeeee;strokeColor=#999999;gradientColor=#cccccc;align=left;spacingLeft=4;fontSize=17;fontColor=#666666;labelPosition=right;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="160" width="15" height="15" as="geometry"/>
+                    <mxGeometry x="50" y="190" width="15" height="15" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" value="Calculate total" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=#666666;mainText=" parent="1" vertex="1">
                     <mxGeometry x="260" y="230" width="120" height="20" as="geometry"/>
@@ -32,10 +32,10 @@
                     <mxGeometry x="300" y="-160" width="40" height="730" as="geometry"/>
                 </mxCell>
                 <mxCell id="41" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Amount&lt;br&gt;&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=#666666;mainText=" vertex="1" parent="1">
-                    <mxGeometry x="410" y="65" width="160" height="30" as="geometry"/>
+                    <mxGeometry x="410" y="100" width="160" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" value="&lt;span&gt;Tu Dalar Lemons&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-                    <mxGeometry x="240" y="10" width="100" height="70" as="geometry"/>
+                    <mxGeometry x="90" y="10" width="100" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="45" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;*price*&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
                     <mxGeometry x="300" y="230" width="110" height="70" as="geometry"/>
